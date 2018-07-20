@@ -82,9 +82,20 @@ else:
                 json_array = []
                 for i in range(0,30):
                     json_data = {}
-                    #print(i)
-                    query = "MATCH "+ "(a0:n" + str(random.choice (node_labels)) +")"
                     length = ((int)(i/3)+1)
+                    print(i)
+                    query = "MATCH "+ "(a0:n" + str(10-length) +")"
+                    
+                    #for j in range(1, length+1):
+                    #    if(random.choice([True])):
+                    #        query += "-[:x" + str(10-length+j-1) +"]->"
+                    #    else:
+                    #        query += "<-[:p" + str(random.choice (node_labels)) +"]-"
+                    #    query += "(a"+str(j)+":n" + str(10-length+j) +")"             
+                    #query += " RETURN *;"
+                    
+                    query = "MATCH "+ "(a0:n" + str(random.choice (node_labels)) +")"
+                    
                     for j in range(1, length+1):
                         if(random.choice([True, False])):
                             query += "-[:p" + str(random.choice (node_labels)) +"]->"
@@ -92,6 +103,7 @@ else:
                             query += "<-[:p" + str(random.choice (node_labels)) +"]-"
                         query += "(a"+str(j)+":n" + str(random.choice (node_labels)) +")"             
                     query += " RETURN COUNT(*);"
+                    
                     json_data['queryString'] = query
                     json_data['name'] = "query "+ str(i) + " (len="+ str(length) +")"
                     json_data['parameterFile'] = "query_1_param.txt"

@@ -1,0 +1,137 @@
+<generator>
+    <size>1</size>
+    <graph>
+        <nodes>10000</nodes>
+    </graph>
+
+    <predicates>
+        <size>4</size>
+        <alias symbol="0">X</alias>
+        <proportion symbol="0">0.25</proportion>
+
+        <alias symbol="1">Y</alias>
+        <proportion symbol="1">0.25</proportion>
+
+        <alias symbol="2">Z</alias>
+        <proportion symbol="2">0.25</proportion>
+
+        <alias symbol="3">Q</alias>
+        <proportion symbol="3">0.25</proportion>
+    </predicates>
+
+    <types>
+        <size>5</size>
+        <alias type="0">A</alias>
+        <proportion type="0">0.25</proportion>
+
+        <alias type="1">B</alias>
+        <proportion type="1">0.25</proportion>
+
+        <alias type="2">C</alias>
+        <proportion type="2">0.25</proportion>
+
+        <alias type="3">D</alias>
+        <proportion type="3">0.25</proportion>
+    </types>
+
+
+    <schema>
+        <source type="0">
+            <target type="0" symbol="0" edge_type="0031"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="1" edge_type="0032"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="2" edge_type="0033"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="3" edge_type="0034"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="0" edge_type="0035"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="1" edge_type="0036"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="2" edge_type="0037"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="3" edge_type="0038"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="0" edge_type="0039"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="1" edge_type="0040"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="2" edge_type="0041"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="3" edge_type="0042"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="0" edge_type="0043"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="1" edge_type="0044"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="2" edge_type="0045"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="3" edge_type="0046"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+        </source>
+        <source type="1">
+            <target type="0" symbol="0" edge_type="1031"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="1" edge_type="1032"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="2" edge_type="1033"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="3" edge_type="1034"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="0" edge_type="1035"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="1" edge_type="1036"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="2" edge_type="1037"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="3" edge_type="1038"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="0" edge_type="1039"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="1" edge_type="1040"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="2" edge_type="1041"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="3" edge_type="1042"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="0" edge_type="1043"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="1" edge_type="1044"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="2" edge_type="1045"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="3" edge_type="1046"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+        </source>
+        <source type="2">
+            <target type="0" symbol="0" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="1" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="2" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="3" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="0" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="1" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="2" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="3" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="0" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="1" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="2" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="3" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="0" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="1" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="2" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="3" edge_type="203"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+        </source>
+        <source type="3">
+            <target type="0" symbol="0" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="1" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="2" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="0" symbol="3" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="0" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="1" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="2" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="1" symbol="3" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="0" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="1" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="2" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="2" symbol="3" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="0" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="1" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="2" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+            <target type="3" symbol="3" edge_type="303"><indistribution type="uniform"><min>0</min><max>5</max></indistribution><outdistribution type="uniform"><min>0</min><max>5</max></outdistribution></target>
+        </source>
+
+
+    </schema>
+
+
+    <workload id="0" size="20">
+        <!-- bounds for the size of these queries -->
+        <size>
+            <conjuncts min="1" max="1"/>	<!-- number of A^M where M is a multiplicity 1 or * -->
+            <disjuncts min="1" max="1"/>	<!-- number of w_1 + ... + w_n in each A -->
+            <length min="6" max="12"/>		<!-- number of a_1 . ... . a_m in each w_i -->
+        </size>
+
+        <!-- probability to have "*" as multiplicity of the conjuncts -->
+        <multiplicity star="0"/>
+
+        <!-- the arity of the generated queries, we allow 0 for Boolean queries -->
+        <arity min="0" max="0"/>
+
+        <!-- we want only linear queries, but not constant nor quadratic -->
+        <selectivity constant="1" linear="1" quadratic="1"/>
+
+        <!-- we want to have in the workload chains and stars, but not cycles, etc. -->
+        <type chain="1" star="0" cycle="0" starchain="0"/>
+    </workload>
+
+</generator>
