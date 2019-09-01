@@ -1,5 +1,5 @@
 # gmark-to-neo4j
-Converts gMark generated graphs and queries into a format supported by Neo4j for import.
+Converts gMark (https://github.com/graphMark/gmark) generated graphs and queries into a format supported by Neo4j for import.
 
 This script converts a gMark output graph into a format that is accepted by the Neo4j importer.
 In addition, it converts gMark output Cypher queries into a JSON format that is accepted by Neo4j benchmarking tools.
